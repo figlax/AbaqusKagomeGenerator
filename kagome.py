@@ -23,6 +23,7 @@ class Kagome:
         self.nodes = list()
         self.elements = list()
         self.cracked_nodes = list()
+
         for star in stars:
             for node in star.nodes:
                 # if there are no nodes already in this location
